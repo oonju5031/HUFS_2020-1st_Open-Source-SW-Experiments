@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                             int minute = calendar.get(Calendar.MINUTE);
                             int second = calendar.get(Calendar.SECOND);
 
-                            textView.setText(year + "년" + month + "월" + day + "일\n" + hour + "시" + minute + "분" + second + "초\n");
+                            textView.setText(year + "년 " + month + "월 " + day + "일\n" + hour + "시 " + minute + "분 " + second + "초\n");
                         }
                     });
                     try {
